@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   color: #e0e0e0;
-  background-image: url('https://store-images.s-microsoft.com/image/apps.44002.14265695181764657.4b73f401-4411-4e71-82f9-faeba27e8039.3f5bfe3d-e141-4b89-afa3-d1fb0ef3d02e?q=90&w=480&h=270'); /* Truncated base64; replace with full string or URL */
+  background-image: url('portfolio-images/Background_image.jpeg'); /* Truncated base64; replace with full string or URL */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
