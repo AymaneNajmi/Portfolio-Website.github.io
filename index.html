@@ -11,7 +11,7 @@
     <header class="top-nav">
       <div class="nav-left">
         <span class="logo">Fextralife</span>
-        <span class="wiki-title">The First Berserker: Khazan Wiki 2</span>
+        <span class="wiki-title">The First Berserker: Khazan Wiki</span>
       </div>
       <nav class="nav-menu">
         <ul>
@@ -41,12 +41,11 @@
         <button onclick="openLink('https://store.steampowered.com/app/2680010/The_First_Berserker_Khazan/')">Steam Page</button>
         <br />
         <br />
-        <button onclick="openLink('https://firstberserkerkhazan.wiki.fextralife.com/Walkthrough')">Walkthrough</button>
-        <button onclick="openLink('https://firstberserkerkhazan.wiki.fextralife.com/Bosses')">Boss Guides</button>
+        <button onclick="openLink('https://www.xbox.com/fr-FR/games/store/the-first-berserker-khazan/9PKJWMBBGK38')">Xbox</button>
+        <button onclick="openLink('https://store.playstation.com/fr-fr/concept/10009937')">Playstation</button>
         <br />
         <br />
-        <button onclick="openLink('https://firstberserkerkhazan.wiki.fextralife.com/Skills')">Skills</button>
-        <button onclick="openLink('https://firstberserkerkhazan.wiki.fextralife.com/New+Game+Plus')">New Game Plus</button>
+        <button onclick="openLink('https://www.amazon.fr/First-Berserker-Khazan-Playstation/dp/B0DQDLVRXH')">Amazon</button>
         <br />
         <br />
         <button class="btn" onclick="showDemoAlert()">Try Demo</button>
@@ -79,7 +78,7 @@
             </tr>
             <tr>
               <th>Price</th>
-              <td>Standard Edition: $59.99 (Estimated)</td>
+              < pseudo-content="Standard Edition: $59.99 (Estimated)" />
             </tr>
           </table>
         </section>
@@ -107,7 +106,7 @@
         <!-- Recent Updates Section -->
         <section class="updates">
           <h2>Recent Updates</h2>
-          <p><strong>May 26, 2025, 10:22 AM +01:</strong> New patch released, optimizing performance on Xbox Series X|S.</p>
+          <p><strong id="update-1">May 26, 2025, 10:22 AM +01:</strong> New patch released, optimizing performance on Xbox Series X|S.</p>
           <p><strong>April 15, 2025:</strong> Boss Rush Mode added, featuring the Cerberus encounter.</p>
           <p><strong>March 27, 2025:</strong> Official launch on all platforms.</p>
         </section>
@@ -120,7 +119,7 @@
       <button onclick="openLink('https://discord.gg/fextralife')">Discord</button>
       <button onclick="openLink('https://www.youtube.com/@Fextralife')">YouTube</button>
       <button onclick="openLink('https://www.twitch.tv/fextralife')">Twitch</button>
-      <p>Powered by Fextralife | Last Updated: May 26, 2025, 10:22 AM +01</p>
+      <p>Powered by Fextralife | Last Updated: <span id="last-updated">Loading...</span></p>
     </footer>
 
     <script src="script.js"></script>
